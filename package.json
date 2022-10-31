@@ -1,0 +1,15 @@
+{
+  "name": "timer",
+  "productName": "Desktop App",
+  "version": "1.0.0",
+  "description": "Web based app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ranjeth Ravichandran",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.0"
+  }
+}

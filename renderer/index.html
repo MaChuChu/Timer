@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Countdown Timer!</title>
+  </head>
+  <body>
+    <div class="countdown-timer-container">
+      <div class="countdown-timer-values" id="days">0</div>
+      <div class="countdown-timer-values" id="hours">0</div>
+      <div class="countdown-timer-values" id="minutes">0</div>
+      <div class="countdown-timer-values" id="seconds">0</div>
+      <div class="">
+        <button type="button" id="increaseDays">∧</button>
+        Days
+        <button type="button" id="decreaseDays">V</button> 
+      </div>
+      <div class="">
+        <button type="button" id="increaseHours">∧</button>
+        Hours
+        <button type="button" id="decreaseHours">V</button> 
+      </div>
+      <div class="">
+        <button type="button" id="increaseMinutes">∧</button>
+        Minutes
+        <button type="button" id="decreaseMinutes">V</button> 
+      </div>
+      <div class="">
+        <button type="button" id="increaseSeconds">∧</button>
+        Seconds
+        <button type="button" id="decreaseSeconds">V</button> 
+      </div>
+      <div class="" id="play">Start Timer</div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
